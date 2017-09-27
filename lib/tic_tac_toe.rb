@@ -98,12 +98,12 @@ class TicTacToe
     i = 1
     while (i <= 9) do
       if (!over?)   #This is completely uneeded, except to pass the tests. :-(
-        turn(@board)
+        turn
       end
-      if (won?(@board))
-        puts "Congratulations #{winner(@board)}!"
+      if (won?)
+        puts "Congratulations #{winner}!"
         return
-      elsif (draw?(@board))
+      elsif (draw?)
         puts "Cat's Game!"
         return
       end
