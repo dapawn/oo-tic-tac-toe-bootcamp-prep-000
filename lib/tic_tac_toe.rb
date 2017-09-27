@@ -97,7 +97,7 @@ class TicTacToe
   def play
     i = 1
     while (i <= 9) do
-      if (!over?(@board))   #This is completely uneeded, except to pass the tests. :-(
+      if (!over?)   #This is completely uneeded, except to pass the tests. :-(
         turn(@board)
       end
       if (won?(@board))
