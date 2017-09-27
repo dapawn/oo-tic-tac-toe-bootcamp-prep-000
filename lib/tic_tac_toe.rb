@@ -91,6 +91,7 @@ class TicTacToe
     else
       turn
     end
+    display_board
   end
 
   # Define your play method below
